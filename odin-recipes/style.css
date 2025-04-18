@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 247, 206);
+
+}
+
+.title{
+    font-family: "Apple Chancery", "URW Chancery L", "Gill Sans", "sans-serif";
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+}
+
+/*Shared Styles */
+.title.page_title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+/* Homepage styles */
+.homepage_list{
+    text-align: center;
+}
+
+.homepage_item{
+    background-color: rgb(212, 108, 96);
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.homepage_link {
+    background-color: rgb(212, 108, 96);
+}
+
+.home_img {
+    display: block;
+    width: 50%;
+    margin: 40px auto;
+}
+
+/* Recipe-page styles */
+.img_container{
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.title.recipe_title{
+    color: rgb(96, 17, 54);
+    font-size: 2em;
+    margin: 0;
+
+}
