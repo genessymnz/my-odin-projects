@@ -2,13 +2,14 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    font-family:'Roboto', 'Lucida Sans Regular', 'Lucida Grande';
     margin: 0;
     padding: 0;
 }
 
 button {
-    background-color: rgb(27, 107, 218);
-    font-size: 14px;
+    background-color: #3882F6;
+    font-size: 1em;
     color: white;
     padding: 8px 34px;
     border-radius: 10px;
@@ -18,7 +19,6 @@ button {
 .header {
     display: flex;
     flex-direction: column;
-    font-family:'Roboto', 'Lucida Sans Regular', 'Lucida Grande';
     color: white;
     background-color: #1F2937;
 }
@@ -54,7 +54,7 @@ a {
 .header-bottom {
     display: flex;
     justify-content: center;
-    gap: 12rem;
+    gap: 10rem;
     margin: 3em 5em;
 }
 
@@ -80,5 +80,60 @@ a {
 .header-photo {
     display: flex;
     justify-content: center;
+    width:500px;
+    height: 300px;
     flex: 0 1 auto;
+}
+
+/*Meet the team section */
+.employees{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 10em;
+}
+.employees-title{
+    margin: 0 0 2em 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+}
+
+.card-photo{
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-info{
+    text-align: center;
+    max-width: 160px;
+    margin: 1px 5px ;
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+}
+.card-info.name{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+.card-info.positon{
+    margin-top: 0;
+    color: gray;
 }
