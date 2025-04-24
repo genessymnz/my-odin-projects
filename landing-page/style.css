@@ -11,7 +11,7 @@ button {
     background-color: #3882F6;
     font-size: 1em;
     color: white;
-    padding: 8px 34px;
+    padding: 7px 36px;
     border-radius: 10px;
 }
 
@@ -156,6 +156,43 @@ a {
 }
 
 .author {
-    padding-left: 20rem;
-    margin-top: 1em;
+    align-self:flex-end;
+    padding-right: 15rem;
+    margin-top: 2em;
+}
+
+/* Signup block section */
+.block-section {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 5rem auto; /*centers*/
+    color: white;
+    width: 70rem;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 4em;
+}
+
+.block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.block-header {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.block-info {
+    margin: 0;
+    font-style: italic;
+    font-weight: lighter;
+    color: #ededf3;
+}
+
+.block-apply {
+    border: 2px solid white;
 }
