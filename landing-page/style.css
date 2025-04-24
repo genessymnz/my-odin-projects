@@ -21,6 +21,7 @@ button {
     flex-direction: column;
     color: white;
     background-color: #1F2937;
+    padding: 1em 0 6em 0;
 }
 
 .header-top {
@@ -56,6 +57,7 @@ a {
     justify-content: center;
     gap: 10rem;
     margin: 3em 5em;
+    flex-wrap: wrap;
 }
 
 .header-title{
@@ -86,54 +88,74 @@ a {
 }
 
 /*Meet the team section */
-.employees{
+.employees {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3em 10em;
+    margin: 7em 0 9em 0;
 }
-.employees-title{
+.employees-title {
     margin: 0 0 2em 0;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-
 }
 .card-container {
     display: flex;
     justify-content: space-between;
     gap: 3em;
-
+    flex-wrap: wrap;
 }
-.card{
+.card {
     display: flex;
     flex-direction: column;
     max-width: 200px;
 
 }
 
-.card-photo{
+.card-photo {
     width: 160px;
     height: 160px;
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
 
-.card-info{
+.card-info {
     text-align: center;
     max-width: 160px;
     margin: 1px 5px ;
     font-size: 12px;
     color: rgb(100, 100, 100);
 }
-.card-info.name{
+.card-info.name {
     margin-top: 8px;
     margin-bottom: 0;
     font-weight: 900;
     color: rgb(100, 99, 99);
 }
 
-.card-info.positon{
+.card-info.positon {
     margin-top: 0;
     color: gray;
+}
+
+/*Quote Section*/
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 8rem 0 8rem 0;
+}
+
+.quote {
+    margin-bottom: 0;
+}
+
+.author {
+    padding-left: 20rem;
+    margin-top: 1em;
 }
