@@ -1,4 +1,4 @@
-# 👩‍💻 Lumon Landing Page
+# 👩🏻‍💻 Lumon Landing Page
 
 A company landing page built to practice CSS Flexbox and layout design.
 
